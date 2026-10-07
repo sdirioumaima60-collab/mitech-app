@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --brand-red: #9e1b32;
+    --brand-red-dark: #7a1224;
+    --brand-purple: #4f46e5;
+    --brand-purple-dark: #3730a3;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    color: #0f172a;
+    background-color: #f8fafc;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Industrial scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f5f9;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+  }
+}
+
+/* Custom design accents */
+.badge-sla {
+  background-color: #fef2f2;
+  color: #991b1b;
+  border: 1px solid #fecaca;
+}
+
+.badge-innovation {
+  background-color: #eef2ff;
+  color: #3730a3;
+  border: 1px solid #c7d2fe;
+}
+

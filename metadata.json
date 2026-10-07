@@ -1,0 +1,6 @@
+{
+  "name": "Mitech IDEA BOX & HSE TAG - Gruppo Mastrotto",
+  "description": "Plateforme industrielle Mitech Tunisie de signalement HSE terrain avec escalade 12h automatique et boîte à idées collaborative avec accès rapide matricule.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
